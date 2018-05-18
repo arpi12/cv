@@ -1,0 +1,75 @@
+		html,body
+				{
+					
+					margin: 0px;
+					padding: 0px;
+					overflow-x: hidden; 
+				}
+			
+			 
+			  #home{
+				   background-color:white;
+				 padding:25px 10px;
+				width:100%;
+				position:fixed;
+				top:0px;
+				z-index:95;
+				}
+			 .topnav a {
+			  float: left;
+			  text-align: center;
+			  padding: 10px 8px;
+			  text-decoration: none;
+			  color:blue;
+			  
+
+			}
+
+			.topnav a:hover {
+			  color: #ff8000;
+			  text-decoration: underline;
+			}
+			.topnav .icon {
+			  display:none;
+			}
+			.topnav a.active {
+				color: #ff8000;
+				text-decoration: underline;
+			}
+			.topnav a:after {
+				  color:#aaa;
+				  content: "|";
+				  margin-left: 12px;
+				}
+			.topnav a:last-child:after {
+			  content:"";
+			}
+		.container {
+				position: relative;
+			}
+	section>div {
+    border:1px solid transparent;
+}
+			#about{
+	height: 500px;
+	background: url("2.jpeg") no-repeat center center fixed;
+	background-color: rgba(0,0,0,0.5);
+	background-blend-mode: overlay;
+	color: #fff;
+	padding: 150px 0px;
+	box-sizing: border-box;
+}
+.banner-title{
+	font-family:'Abel'; 
+	font-weight: 100;
+	font-size: 60px;
+}
+#about1{
+	
+	padding:50px;
+}
+body {
+	padding:0;
+	margin:0;
+	position:relative;
+}
